@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tamuNav",
-    "slug": "tamuNav",
+    "name": "tamu-nav",
+    "slug": "tamu-nav",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,25 +17,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.example.ProjectName",
-      "config": {
-        "googleMapsApiKey": "<api key>"
-      }
+      "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey" : "AIzaSyDqzCQsT4FSZWkEZrdNUwkAyZm6PucErEk"
+        }
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "config": {
-        "googleMaps": {
-          "apiKey": "<api key>"
-        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
+
   }
 }
